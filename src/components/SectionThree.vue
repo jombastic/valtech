@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section id="section-3" class="section">
         <div class="container container--1360">
             <h2>Section three</h2>
             <div class="flex-1149 flex--wrap flex--space-between">

@@ -1,8 +1,8 @@
 <template>
-    <section class="relative flex flex--content-centered flex--column">
+    <section id="section-1" class="relative flex flex--content-centered flex--column">
         <h2>Section one</h2>
         <div id="white-section" class="flex flex--items-centered flex--content-centered flex--column">
-            <a href="#" class="round-button">Contact</a>
+            <a href="#" @click.prevent="mailTo" class="round-button">Contact</a>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
         </div>
     </section>
@@ -11,6 +11,12 @@
 <script>
     export default {
         name: 'SectionOne',
+
+        methods: {
+            mailTo() {
+                window.location.href = 'mailto:mk.contact@valtech.com'
+            }
+        }
     }
 </script>
 

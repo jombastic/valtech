@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container container--1640 flex flex--items-centered flex-space-between">
-            <img id="top_logo" src="../assets/Valtech-Logo-black@2x.png" alt="Large Valtech logo">
+            <router-link to="#section-1"><img id="top_logo" src="../assets/Valtech-Logo-black@2x.png" alt="Large Valtech logo"></router-link>
             <Slide id="slide-menu" v-if="this.windowWidth < 1301" right>
                 <HeaderLinks />
                 <HeaderSearch />
@@ -55,6 +55,10 @@
 
 <style scoped>
     header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: #fff;
         padding: 17px 0;
         border-bottom: 1px solid #191919;
     }

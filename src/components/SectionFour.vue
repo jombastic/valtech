@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section id="section-4" class="section">
         <div class="container container--1360">
             <h2>Section four</h2>
             <div class="flex flex--content-centered">
