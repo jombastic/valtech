@@ -23,7 +23,7 @@
 <style scoped>
     section {
         min-height: 800px;
-        background: url('../assets/Intersection 2@2x.png') no-repeat center/cover;
+        background: url('../assets/images/Intersection 2@2x.png') no-repeat center/cover;
     }
     h2 {
         position: absolute;

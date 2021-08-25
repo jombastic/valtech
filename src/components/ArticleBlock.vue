@@ -1,7 +1,7 @@
 <template>
     <div class="article-block">
         <div class="block__image">
-            <img :src="require(`@/assets/${article.img}`)" :alt="article.imgAlt">
+            <img :src="require(`@/assets/images/${article.img}`)" :alt="article.imgAlt">
         </div>
         <div class="block__bottom">
             <h3>Teaser title</h3>

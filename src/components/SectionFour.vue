@@ -47,7 +47,7 @@
 <style scoped>
 section {
     min-height: 800px;
-    background: url('../assets/man-with-phone.png') no-repeat center/cover;
+    background: url('../assets/images/man-with-phone.png') no-repeat center/cover;
 }
 .m-top-20 {
     margin-top: 20px;

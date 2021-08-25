@@ -1,7 +1,7 @@
 <template>
     <footer class="flex flex--wrap flex--space-between container container--1640">
         <div class="flex__100percent m-bottom-40-1230">
-            <img :src="require(`@/assets/Valtech-Logo-black.png`)" alt="">
+            <img :src="require(`@/assets/images/Valtech-Logo-black.png`)" alt="">
         </div>
         <div class="flex__50percent-1230 flex__100percent-625">
             <h4>Footer section title</h4>
