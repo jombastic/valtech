@@ -2,10 +2,7 @@
     <div id="app">
         <div class="content">
             <Header />
-            <SectionOne />
-            <SectionTwo />
-            <SectionThree />
-            <SectionFour />
+            <router-view></router-view>
         </div>
         <Footer />
     </div>
@@ -13,10 +10,6 @@
 
 <script>
     import Header from './components/Header.vue';
-    import SectionOne from './components/SectionOne.vue';
-    import SectionTwo from './components/SectionTwo.vue';
-    import SectionThree from './components/SectionThree.vue';
-    import SectionFour from './components/SectionFour.vue';
     import Footer from './components/Footer.vue';
 
     export default {
@@ -24,10 +17,6 @@
 
         components: {
             Header,
-            SectionOne,
-            SectionTwo,
-            SectionThree,
-            SectionFour,
             Footer,
         }
     }
